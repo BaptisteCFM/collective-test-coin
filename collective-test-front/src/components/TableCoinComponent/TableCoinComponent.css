@@ -1,0 +1,79 @@
+.coincard-row {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top: 1px solid #EFF2F5;
+    text-align: center;
+    font-size: 14px;
+}
+
+.coincard-row:hover {
+    background-color: #F8FAFD;
+    cursor: pointer;
+}
+
+.name-coin {
+    font-weight: 600;
+}
+
+.volume-in-coin {
+    margin-top: 0px;
+    font-size: 13px;
+    color: #D0D6E3;
+    font-weight: 500;
+}
+
+.coincard-row #rank {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coincard-row #name {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.coincard-row #price {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.coincard-row #percentage {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.coincard-row #marketcap {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.coincard-row #volume {
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coincard-row #supply {
+    width: 15%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-tab {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top: 1px solid grey;
+    justify-content: space-around;
+}

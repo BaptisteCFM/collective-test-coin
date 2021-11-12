@@ -1,0 +1,17 @@
+.max-supply-bar {
+    position: relative;
+    background-color: #EFF2F5;
+    border-radius: 4px;
+    height: 8px;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 3px;
+}
+
+.supply-bar {
+    position: absolute;
+    height: 8px;
+    background-color: #D0D6E3;
+    top: 0;
+    border-radius: 4px;
+}

@@ -1,0 +1,35 @@
+.top-coin {
+    box-shadow: rgb(88 102 126 / 8%) 0px 4px 24px, rgb(88 102 126 / 12%) 0px 1px 2px;
+    border-radius: 8px;
+    padding: 14px 16px 17px;
+    width: 410px;
+}
+
+.top-coin h1 {
+    font-weight: bold;
+    font-size: 17px;
+    width: auto;
+    margin-top: 0px;
+}
+
+.top-coin .name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top-coin .symbol {
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    margin-left: 8px;
+}
+.tops-coin-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.coin-top {
+    display: flex;
+    align-items: center;
+}

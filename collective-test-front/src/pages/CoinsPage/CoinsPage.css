@@ -1,0 +1,30 @@
+.coinpage {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1408px;
+}
+
+.search-bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.search-bar input {
+    background-color: rgb(239, 242, 245);
+    color: rgb(166, 176, 195);
+    border: none;
+    padding: 0.7rem;
+    border-radius: 7px;
+    margin-right: 0.5rem;
+}
+
+.search-bar button {
+    background: rgb(56, 97, 251);
+    border: 0px;
+    border-radius: 8px;
+    padding: 0.7rem;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
